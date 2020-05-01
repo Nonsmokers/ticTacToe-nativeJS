@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="score">(Х)<span id='score1'></span>:<span id='score2'></span>(О)</h1>
+    <h2 class="info">Ходит игрок - <span id="player">X</span></h2>
+    <table class="game">
+        <tr>
+            <td class="cell"></td>
+            <td class="cell"></td>
+            <td class="cell"></td>
+        </tr>
+        <tr>
+            <td class="cell"></td>
+            <td class="cell"></td>
+            <td class="cell"></td>
+        </tr>
+        <tr>
+            <td class="cell"></td>
+            <td class="cell"></td>
+            <td class="cell"></td>
+        </tr>
+    </table>
+    <button class='reset' id="reset">Новая партия</button>
+    <div class="overlay">
+        <div class="smodal">
+            <h2 class="">Победили </h2>
+            <span id='score1'></span>:<span id='score2'></span>
+            <button type="button" class="okBtn" id="okBtn">OK</button>
+        </div>
+    </div>
+</div>
+		<script src="./script.js"></script>
+</body>
+</html>
